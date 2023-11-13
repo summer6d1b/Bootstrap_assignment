@@ -9,8 +9,17 @@ body {
   padding: 20px;
 }
 
+nav {
+  background-color: #363740;
+}
+
 #navleft li i {
-  color: rgb(173, 171, 171);
+  color: #9FA2B4;
+}
+
+.dashboard span {
+  padding-left: 15px;
+  font-weight: 500;
 }
 
 .nav-link {
