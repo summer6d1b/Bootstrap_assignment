@@ -1,0 +1,34 @@
+$leftnav:'Roboto', sans-serif;
+
+body{
+    font-family: $leftnav;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+#navleft li a{
+    padding: 20px;
+}
+#navleft li i{
+    color: rgb(173, 171, 171);
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+}
+
+.icon-space {
+  width: 30px; /* 或者足够容纳最宽图标的宽度 */
+  text-align: center;
+}
+
+/* 确保文本左对齐 */
+.nav-link span {
+  text-align: left;
+  display: block; /* 这会让span表现得像一个块级元素 */
+}
+
+.icon-space{
+    padding-right: 30px;
+}
