@@ -1,0 +1,19 @@
+{
+  "name": "summer_bootstrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "goservergo": "lite-server --baseDir=\"public\"",
+    "summerisbest":"sass --watch src/scss:public/assets/css",
+    "start":"concurrently \"npm run summerisbest\" \"npm run goservergo\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "lite-server": "^2.6.1",
+    "sass": "^1.69.5"
+  }
+}
