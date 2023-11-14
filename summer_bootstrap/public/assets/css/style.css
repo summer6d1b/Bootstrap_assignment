@@ -9,8 +9,10 @@ body {
   padding: 20px;
 }
 
-nav {
+.sidebar {
   background-color: #363740;
+  height: 100%;
+  min-height: 100vh;
 }
 
 #navleft li i {
