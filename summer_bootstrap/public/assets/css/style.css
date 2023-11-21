@@ -1,9 +1,7 @@
-@charset "UTF-8";
-
-body{
-  margin: 0;
-  padding: 0;
-  font-family: mulish;
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 14px;
 }
 
 #navleft li a {
@@ -14,7 +12,6 @@ body{
   background-color: #363740;
   height: 100%;
   min-height: 100vh;
-  width: 250px;
 }
 
 #navleft li i {
@@ -32,114 +29,17 @@ body{
 }
 
 .icon-space {
-  width: 30px; /* 或者足够容纳最宽图标的宽度 */
+  width: 30px;
   text-align: center;
 }
 
-/* 确保文本左对齐 */
 .nav-link span {
   text-align: left;
-  display: block; /* 这会让span表现得像一个块级元素 */
+  display: block;
 }
 
 .icon-space {
   padding-right: 30px;
 }
 
-:root {
-    --main-bg-color:  hsla(0, 0%, 100%, 0.1);
-    --main-text-color: #bbbec5;
-    --second-text-color: #bbbec5;
-    --second-bg-color: #f8f9fd;
-  }
-  
-  .primary-text {
-    color: var(--main-text-color);
-  }
-  
-  .second-text {
-    color: var(--second-text-color);
-  }
-  
-  
-  #menu-toggle {
-    cursor: pointer;
-  }
-
-  
-  .list-group-item {
-    border: none;
-    padding: 20px 30px;
-  }
-  
-  
-  @media (min-width: 768px) {
-    #sidebar-wrapper {
-      margin-left: 0;
-    }
-  
-    #page-content-wrapper {
-      min-width: 0;
-      width: 100%;
-    }
-  
-    #wrapper.toggled #sidebar-wrapper {
-      margin-left: -15rem;
-    }
-  }
-
-
-hr{
-    color: gray;
-}
-
-
-img{
-    border-radius: 50%;
-    }
-
-
-.card{
-    border: rgb(178, 178, 190) 0.5px solid;
-    border-radius: 0;
-}
-
-
-.card a:hover{
-    background-color: rgba(248, 248, 255, 0.48);
-    border: rgb(7, 106, 255) 1px solid;
-    color:  rgb(7, 106, 255) ;
-
-}
-.card-title{
-    font-weight: bold;
-}
-
-.figure-caption{
-    color:  rgb(178, 178, 190);
-}
-
-
-.border-bottom{
-    padding: 20px;
-}
-
-.tasks-font{
-    font-weight:400;
-
-}
-.bg-warning , .bg-success{
-    border-radius: 10px;
-    color: white;
-    font-size: 13px;
-}
-
-.bg-body-secondary{
-    border-radius: 10px;
-    color: gray;
-    font-size: 13px;
-}
-
-
-
-
+/*# sourceMappingURL=style.css.map */
