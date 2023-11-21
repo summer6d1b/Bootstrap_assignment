@@ -14,6 +14,9 @@ body{
    background-color: #363740;
    height: 100%;
    min-height: 100vh;
+   width: 250px;
+  
+  
 
 }
 
@@ -30,13 +33,14 @@ body{
 }
 
 .icon-space {
-  width: 30px; 
+  width: 30px; /* 或者足够容纳最宽图标的宽度 */
   text-align: center;
 }
 
+/* 确保文本左对齐 */
 .nav-link span {
   text-align: left;
-  display: block; 
+  display: block; /* 这会让span表现得像一个块级元素 */
 }
 
 .icon-space{
