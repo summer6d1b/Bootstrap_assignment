@@ -1,110 +1,333 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap INM320</title>
-<!-- bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-<!-- font awesome -->
-    <script src="https://kit.fontawesome.com/29856a01d4.js" crossorigin="anonymous"></script>
-<!-- font roboto -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@3.0.0/reset.min.css" />
+    <!-- bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/7156ec7133.js" crossorigin="anonymous"></script>
+    <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,400;0,500;0,600;1,300;1,400;1,500&family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
-<!-- css reset -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@3.0.0/reset.min.css" />
-    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Mulish:wght@300;400;500&display=swap"
+        rel="stylesheet">
+
 </head>
 
 <body>
-    <section class="container-fluid">
-        <div class="row">
-            <!-- nav -->
-            <div class="sidebar d-flex flex-column flex-shrink-0 p-3 col-sm-4 col-md-3 col-lg-2 ">
-               
-                <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none dashboard">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
-                        <circle cx="16" cy="16" r="16" fill="#3751FF"/>
-                        <path d="M11 10C11 9.44772 11.4477 9 12 9H15.9905C18.2127 9 19.9333 9.60955 21.1524 10.8287C22.3841 12.0478 23 13.765 23 15.9803C23 18.2088 22.3841 19.9391 21.1524 21.1713C19.9333 22.3904 18.2127 23 15.9905 23H12C11.4477 23 11 22.5523 11 22V10Z" fill="url(#paint0_linear_584_285)"/>
-                        <defs>
-                          <linearGradient id="paint0_linear_584_285" x1="11" y1="9" x2="23" y2="23" gradientUnits="userSpaceOnUse">
-                            <stop stop-color="white" stop-opacity="0.7"/>
-                            <stop offset="1" stop-color="white"/>
-                          </linearGradient>
-                        </defs>
-                    </svg>
-                    <span class="fs-5" >Dashboard</span>
-                </a>
-                <hr class="border-0">
+    <div class="d-flex" id="wrapper">
+        <!-- sidebar -->
+            <div class="row">
+                <div class="sidebar d-flex flex-column flex-shrink-0 p-3 col-sm-4 col-md-3 col-lg-2 ">
+                   
+                    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none dashboard">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                            <circle cx="16" cy="16" r="16" fill="#3751FF"/>
+                            <path d="M11 10C11 9.44772 11.4477 9 12 9H15.9905C18.2127 9 19.9333 9.60955 21.1524 10.8287C22.3841 12.0478 23 13.765 23 15.9803C23 18.2088 22.3841 19.9391 21.1524 21.1713C19.9333 22.3904 18.2127 23 15.9905 23H12C11.4477 23 11 22.5523 11 22V10Z" fill="url(#paint0_linear_584_285)"/>
+                            <defs>
+                              <linearGradient id="paint0_linear_584_285" x1="11" y1="9" x2="23" y2="23" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="white" stop-opacity="0.7"/>
+                                <stop offset="1" stop-color="white"/>
+                              </linearGradient>
+                            </defs>
+                        </svg>
+                        <span class="fs-5" >Dashboard</span>
+                    </a>
+                    <hr class="border-0">
+    
+                    <ul class="nav nav-pills flex-column mb-auto" id="navleft">
+    
+                      <li class="nav-item">
+                            <a href="#" class="nav-link active" aria-current="page">
+                                <i class="fa-solid fa-chart-pie icon-space"></i>
+                            <span>Overview</span>
+                            </a>
+                        </li>
+    
+    
+                      <li >
+                            <a href="#" class="nav-link text-white">
+                                <i class="fa-solid fa-ticket icon-space"></i>
+                            <span>Tickets</span>
+                            </a>
+                      </li>
+                      <li>
+                            <a href="#" class="nav-link text-white">
+                                <i class="fa-solid fa-lightbulb icon-space"></i>
+                                <span>Ideas</span>
+                            </a>
+                      </li>
+                      <li>
+                            <a href="#" class="nav-link text-white">
+                                <i class="fa-solid fa-users icon-space"></i>
+                                <span>Contacts</span>
+                            </a>
+                      </li>
+                        <li>
+                            <a href="#" class="nav-link text-white">
+                                <i class="fa-solid fa-user icon-space"></i>
+                            Agents
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link text-white">
+                                <i class="fa-solid fa-book icon-space"></i>
+                            Article
+                            </a>
+                        </li>
+                        <hr>
+                        <li>
+                            <a href="#" class="nav-link text-white">
+                                <i class="fa-solid fa-gear icon-space"></i>
+                            Settings
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link text-white">
+                                <i class="fa-solid fa-award icon-space"></i>
+                            Subscription
+                            </a>
+                        </li>
+                    </ul>
+                </div> 
+            </div>
 
-                <ul class="nav nav-pills flex-column mb-auto" id="navleft">
+        <!-- page content -->
+        <div id="page-content-wrapper">
+            <nav class="navbar navbar-expand-lg navbar-light bg-transparent py-4 px-4 justify-content-between ">
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-align-left primary-text fs-4 me-3" id="menu-toggle"></i>
+                    <h2 class="fs-2 m-0">Overview</h2>
+                </div>
+                <div class=" d-flex column  ">
+                    <ul class=" d-flex column fs-5  mb-0 mt-1 align--center">
+                        <li class="mx-2  ">
+                            <a class="nav-link active" aria-current="page" href="#"><i
+                                    class="fa-solid fa-magnifying-glass text-body-tertiary"></i></a>
+                        </li>
+                        <li class="mx-2">
+                            <a class="nav-link active" aria-current="page" href="#"><i
+                                    class="fa-solid fa-bell text-body-tertiary"></i></a>
+                        </li>
+                    </ul>
 
-                  <li class="nav-item">
-                        <a href="#" class="nav-link active" aria-current="page">
-                            <i class="fa-solid fa-chart-pie icon-space"></i>
-                        <span>Overview</span>
-                        </a>
-                    </li>
+                    <ul class=" mb-2 mb-lg-0 px-3  d-flex column align-items-center ">
+                        <li class=" px-2 d-none d-sm-block">
+                            <a class="nav-link active" aria-current="page" href="#">Jones Ferdinand</a>
+                        </li>
 
+                        <li class="px-2">
+                            <img src="./assets/images/2.png" alt="image of Jones Ferdinand">
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- overview -->
+            <article class="container_card row row-cols-2 row-cols-sm-2 row-cols-md-4 m-0 p-3 ">
+                <div class="col">
+                    <div class="card ">
+                        <a href="#"  class="ticket_card card-body text-decoration-none">
+                            <p class="text-center">Unresolved</p>
+                            <h5 class="card-title text-center fs-3">60</h5> 
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <a href="#"  class="ticket_card card-body text-decoration-none">
+                            <p class="text-center">Overdue</p>
+                            <h5 class="card-title text-center fs-3">16</h5>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <a href="#"  class="ticket_card card-body text-decoration-none">
+                            <p class="text-center">Open</p>
+                            <h5 class="card-title text-center fs-3">43</h5>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <a href="#"  class="ticket_card card-body text-decoration-none">
+                            <p class="text-center">On hold</p>
+                            <h5 class="card-title text-center fs-3">64</h5>
+                        </a>
+                    </div>
+                </div>
+            </article>
+            <!-- todays trends -->
+            <article class="container-fluid text-center my-2 py-2">
+                <div class="row row-gap-3 m-2 ">
+                    <div class="card col-12 col-md-8 pt-4">
+                        <section class="figure d-flex flex-column">
+                            <h5 class="text-start ">Today's trends</h5>
+                            <figcaption class="figure-caption  text-start">as of 25 May 2019, 09:41 PM</figcaption>
+                        </section>
+                        <section  >
+                            <img src="./assets/images/1.png" class="figure-img img-fluid rounded-0  " alt="graph">
+                        </section>
+                    </div>
+                    <div class=" col-12 col-md-4 p-0 ">
+                        <div class="column">
+                            <div class="col">
+                                <div class="card">
+                                    <div class="card-body ">
+                                        <p class="text-center">Resolved</p>
+                                        <h5 class="card-title text-center fs-3">449</h5>
+                                    </div>
+                                </div>
+                            </div>
 
-                  <li >
-                        <a href="#" class="nav-link text-white">
-                            <i class="fa-solid fa-ticket icon-space"></i>
-                        <span>Tickets</span>
-                        </a>
-                  </li>
-                  <li>
-                        <a href="#" class="nav-link text-white">
-                            <i class="fa-solid fa-lightbulb icon-space"></i>
-                            <span>Ideas</span>
-                        </a>
-                  </li>
-                  <li>
-                        <a href="#" class="nav-link text-white">
-                            <i class="fa-solid fa-users icon-space"></i>
-                            <span>Contacts</span>
-                        </a>
-                  </li>
-                    <li>
-                        <a href="#" class="nav-link text-white">
-                            <i class="fa-solid fa-user icon-space"></i>
-                        Agents
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-link text-white">
-                            <i class="fa-solid fa-book icon-space"></i>
-                        Article
-                        </a>
-                    </li>
-                    <hr>
-                    <li>
-                        <a href="#" class="nav-link text-white">
-                            <i class="fa-solid fa-gear icon-space"></i>
-                        Settings
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-link text-white">
-                            <i class="fa-solid fa-award icon-space"></i>
-                        Subscription
-                        </a>
-                    </li>
-                </ul>
+                            <div class="col">
+                                <div class="card">
+                                    <div class="card-body ">
+                                        <p class="text-center">Received</p>
+                                        <h5 class="card-title text-center fs-3">426</h5>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <p class="text-center">Average first response time</p>
+                                        <h5 class="card-title text-center fs-3">33m</h5>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <p class="text-center">Average response time</p>
+                                        <h5 class="card-title text-center fs-3">3h 8m</h5>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <p class="text-center">Resolution within SLA</p>
+                                        <h5 class="card-title text-center fs-3">94%</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!--boxes -->
+            <article class="container-fluid text-center my-2 py-2 ">
+                <div class="row row-gap-3">
+                    <div class=" col-md-6">
+                        <div class="card">
+                            <div class="card-body p-0">
+                                <div class=" m-4">
+                                <div class="d-flex justify-content-between">
+                                    <span class=" text-start fs-5">Unresolved tickets</span>
+                                    <a href="#" class="text-primary fs-6 text-decoration-none ">View details</a>
+                                </div>
+
+                                <figcaption class="figure-caption  text-start">Group: Support</figcaption>
+                                </div>
+
+                                <div class="d-flex justify-content-between mt-3 border-bottom">
+                                    <span class=" text-start fs-6">Waiting on Feature Request</span>
+                                    <span class=" fs-6 figure-caption">4238</span>
+                                </div>
+
+                                <div class="d-flex justify-content-between mt-3 border-bottom">
+                                    <span class=" text-start fs-6">Awaiting Customer Response</span>
+                                    <span class=" fs-6 figure-caption">1005</span>
+                                </div>
+
+                                <div class="d-flex justify-content-between mt-3 border-bottom">
+                                    <span class=" text-start fs-6">Awaiting Developer Fix</span>
+                                    <span class=" fs-6 figure-caption">914</span>
+                                </div>
+
+                                <div class="d-flex justify-content-between mt-3 border-bottom">
+                                    <span class=" text-start fs-6">Pending</span>
+                                    <span class=" fs-6 figure-caption">281</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-body p-0">
+                                <div class=" m-4">
+                                    <div class="d-flex justify-content-between">
+                                        <span class=" text-start fs-5">Tasks</span>
+                                        <a href="#" class="text-primary fs-6 text-decoration-none ">View all</a>
+                                    </div>
+
+                                    <figcaption class="figure-caption  text-start">Today</figcaption>
+                                    </div>
+
+                                    <div class="d-flex justify-content-between mt-3 border-bottom">
+                                        <figcaption class="figure-caption  text-start">Create new task</figcaption>
+                                        <a href="#" class=" text-secondary fs-5"><i class="fa-regular fa-square-plus"></i></a>
+                                    </div>
+
+                                    <div class="d-flex justify-content-between mx-2 mt-3 border-bottom">
+                                        <div class="form-check-label text-start">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label ps-3" for="flexCheckDefault">Finish ticket update</label>
+                                        </div>
+
+                                        <div>
+                                            <span class="tasks-font bg-warning px-3 py-1 ">URGENT</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="d-flex justify-content-between mx-2 mt-3  border-bottom">
+                                        <div class="form-check-label text-start">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label ps-3" for="flexCheckDefault">Create new ticket examplee</label>
+                                        </div>
+
+                                        <div>
+                                            <span class="tasks-font bg-success px-3 py-1 ">NEW</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="d-flex justify-content-between mx-2 mt-3  border-bottom">
+                                        <div class="form-check-label text-start">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label ps-3" for="flexCheckDefault">Update ticket report</label>
+                                        </div>
+
+                                        <div>
+                                            <span class="tasks-font bg-body-secondary px-3 py-1 ">DEFAULT</span>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
                 
-            
-            </div> 
-
-       
-       
+            </article>
         </div>
-    </section>
+    </div>
+    </div>
 
-
-
-
-
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+    
 </body>
+
 </html>
+
