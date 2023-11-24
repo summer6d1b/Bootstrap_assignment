@@ -1,9 +1,6 @@
-.sidebar {
-  text-align: left;
-}
-
-img {
-  border-radius: 50%;
+.rounded-image {
+  color: #afb6e0;
+  border-radius: 80%;
 }
 
 .name {
@@ -19,12 +16,12 @@ img {
 .custom_card {
   margin: 1px;
   border-radius: 8px;
-  border: 1px solid var(--grayscale-divider, #DFE0EB);
-  background: var(--grayscale-white, #FFF);
+  border: 1px solid #DFE0EB;
+  background: #ffffff;
 }
 
 .card-title {
-  color: var(--grayscale-gray, #9FA2B4);
+  color: #9FA2B4;
   text-align: center;
   font-family: Mulish;
   font-size: 19px;
@@ -35,7 +32,7 @@ img {
 }
 
 .card-text {
-  color: var(--grayscale-black, #252733);
+  color: #252733;
   text-align: center;
   font-family: Mulish;
   font-size: 40px;
@@ -47,12 +44,12 @@ img {
 
 .figure {
   border-radius: 8px;
-  border: 1px solid var(--grayscale-divider, #DFE0EB);
-  background: var(--grayscale-white, #FFF);
+  border: 1px solid #DFE0EB;
+  background: #ffffff;
 }
 
 .row3_text {
-  color: var(--grayscale-gray, #9FA2B4);
+  color: #9FA2B4;
   text-align: center;
   font-family: Mulish;
   font-size: 16px;
@@ -63,7 +60,7 @@ img {
 }
 
 .row3_num {
-  color: var(--grayscale-black, #252733);
+  color: #252733;
   text-align: center;
   font-family: Mulish;
   font-size: 24px;
@@ -79,7 +76,7 @@ img {
 }
 
 .lable-style {
-  color: var(--grayscale-white, #FFF);
+  color: #ffffff;
   text-align: center;
   font-family: Mulish;
   font-size: 11px;
@@ -91,7 +88,7 @@ img {
 }
 
 .form-check-label, .card2_text {
-  color: var(--grayscale-black, #252733);
+  color: #252733;
   font-family: Mulish;
   font-size: 14px;
   font-style: normal;
@@ -101,7 +98,7 @@ img {
 }
 
 .card2_num {
-  color: var(--grayscale-gray, #9FA2B4);
+  color: #9FA2B4;
   text-align: center;
   font-family: Mulish;
   font-size: 11px;
