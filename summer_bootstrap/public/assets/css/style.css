@@ -1,11 +1,10 @@
 .rounded-image {
-  color: #afb6e0;
   border-radius: 80%;
 }
 
 .name {
   color: #afb6e0;
-  font-family: Mulish;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 19px;
   font-style: normal;
   font-weight: 700;
