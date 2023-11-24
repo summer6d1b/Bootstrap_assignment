@@ -1,47 +1,115 @@
-
-body {
-  font-family: "Roboto", sans-serif;
-  font-weight: 100;
-  font-size: 14px;
-}
-
-#navleft li a {
-  padding: 20px;
-}
-
 .sidebar {
-  background-color: #363740;
-  height: 100%;
-  min-height: 100vh;
-}
-
-#navleft li i {
-  color: #9FA2B4;
-}
-
-.dashboard span {
-  padding-left: 15px;
-  font-weight: 500;
-}
-
-.nav-link {
-  display: flex;
-  align-items: center;
-}
-
-.icon-space {
-  width: 30px; /* 或者足够容纳最宽图标的宽度 */
-  text-align: center;
-}
-
-/* 确保文本左对齐 */
-.nav-link span {
   text-align: left;
-  display: block; /* 这会让span表现得像一个块级元素 */
 }
 
-.icon-space {
-  padding-right: 30px;
+img {
+  border-radius: 50%;
+}
+
+.name {
+  color: #afb6e0;
+  font-family: Mulish;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.4px;
+}
+
+.custom_card {
+  margin: 1px;
+  border-radius: 8px;
+  border: 1px solid var(--grayscale-divider, #DFE0EB);
+  background: var(--grayscale-white, #FFF);
+}
+
+.card-title {
+  color: var(--grayscale-gray, #9FA2B4);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.4px;
+}
+
+.card-text {
+  color: var(--grayscale-black, #252733);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1px;
+}
+
+.figure {
+  border-radius: 8px;
+  border: 1px solid var(--grayscale-divider, #DFE0EB);
+  background: var(--grayscale-white, #FFF);
+}
+
+.row3_text {
+  color: var(--grayscale-gray, #9FA2B4);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0.3px;
+}
+
+.row3_num {
+  color: var(--grayscale-black, #252733);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.3px;
+}
+
+.stack-item {
+  padding: 10px;
+  flex: 1;
+}
+
+.lable-style {
+  color: var(--grayscale-white, #FFF);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.form-check-label, .card2_text {
+  color: var(--grayscale-black, #252733);
+  font-family: Mulish;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+.card2_num {
+  color: var(--grayscale-gray, #9FA2B4);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
 }
 
 /*# sourceMappingURL=style.css.map */
