@@ -1,20 +1,19 @@
 // Variables
-$grayscale-divider: #DFE0EB;
+$grayscale-divider: #ffffff;
 $grayscale-white:  #ffffff;
-$grayscale-gray:  #9FA2B4;
+$grayscale-gray:  #747a99;
 $grayscale-black:  #252733;
+$font-color:#364ab9;
+$allfont-famliy: 'Josefin Sans', sans-serif;
 
 // SCSS Styles
-
-
 .rounded-image {
-    
-    border-radius: 80%;
+    border-radius: 100%;
 }
 
 .name {
-    color: #afb6e0;
-    font-family: 'Josefin Sans', sans-serif;
+    color: $font-color;
+    font-family: $allfont-famliy;
     font-size: 19px;
     font-style: normal;
     font-weight: 700;
@@ -23,8 +22,9 @@ $grayscale-black:  #252733;
 }
 
 .custom_card {
-    margin: 1px;
+   
     border-radius: 8px;
+    margin: 5px;
     border: 1px solid $grayscale-divider;
     background: $grayscale-white;
 }
@@ -32,8 +32,7 @@ $grayscale-black:  #252733;
 .card-title {
     color: $grayscale-gray;
     text-align: center;
-    // Bold 19 (0.4 px)
-    font-family: Mulish;
+    font-family:$allfont-famliy;
     font-size: 19px;
     font-style: normal;
     font-weight: 700;
@@ -44,8 +43,7 @@ $grayscale-black:  #252733;
 .card-text {
     color: $grayscale-black;
     text-align: center;
-    // Bold 40 (1 px)
-    font-family: Mulish;
+    font-family: $allfont-famliy;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
@@ -62,20 +60,18 @@ $grayscale-black:  #252733;
 .row3_text {
     color: $grayscale-gray;
     text-align: center;
-    // Semibold 16 (0.3 px)
-    font-family: Mulish;
+    font-family: $allfont-famliy;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
-    line-height: 22px; // 137.5%
+    line-height: 22px; 
     letter-spacing: 0.3px;
 }
 
 .row3_num {
     color: $grayscale-black;
     text-align: center;
-    // Bold 24 (0.3 px)
-    font-family: Mulish;
+    font-family:$allfont-famliy;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -85,14 +81,14 @@ $grayscale-black:  #252733;
 
 .stack-item {
     padding: 10px;
-    flex: 1; // Distribute the available space evenly among the items
+    flex: 1; 
 }
 
 .lable-style {
     color: $grayscale-white;
     text-align: center;
     // Bold 11 (0.5 px, CAPS)
-    font-family: Mulish;
+    font-family:$allfont-famliy;
     font-size: 11px;
     font-style: normal;
     font-weight: 700;
@@ -103,23 +99,21 @@ $grayscale-black:  #252733;
 
 .form-check-label, .card2_text {
     color: $grayscale-black;
-    // Semibold 14 (0.2 px)
-    font-family: Mulish;
+    font-family:$allfont-famliy;
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
-    line-height: 20px; // 142.857%
+    line-height: 20px; 
     letter-spacing: 0.2px;
 }
 
 .card2_num {
     color: $grayscale-gray;
     text-align: center;
-    // Bold 11 (0.5 px, CAPS)
-    font-family: Mulish;
-    font-size: 11px;
+    font-family:$allfont-famliy;
+    font-size: 12px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     line-height: normal;
     letter-spacing: 0.5px;
     text-transform: uppercase;

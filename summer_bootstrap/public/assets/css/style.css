@@ -1,9 +1,9 @@
 .rounded-image {
-  border-radius: 80%;
+  border-radius: 100%;
 }
 
 .name {
-  color: #afb6e0;
+  color: #364ab9;
   font-family: "Josefin Sans", sans-serif;
   font-size: 19px;
   font-style: normal;
@@ -13,16 +13,16 @@
 }
 
 .custom_card {
-  margin: 1px;
   border-radius: 8px;
-  border: 1px solid #DFE0EB;
+  margin: 5px;
+  border: 1px solid #ffffff;
   background: #ffffff;
 }
 
 .card-title {
-  color: #9FA2B4;
+  color: #747a99;
   text-align: center;
-  font-family: Mulish;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 19px;
   font-style: normal;
   font-weight: 700;
@@ -33,7 +33,7 @@
 .card-text {
   color: #252733;
   text-align: center;
-  font-family: Mulish;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -43,14 +43,14 @@
 
 .figure {
   border-radius: 8px;
-  border: 1px solid #DFE0EB;
+  border: 1px solid #ffffff;
   background: #ffffff;
 }
 
 .row3_text {
-  color: #9FA2B4;
+  color: #747a99;
   text-align: center;
-  font-family: Mulish;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -61,7 +61,7 @@
 .row3_num {
   color: #252733;
   text-align: center;
-  font-family: Mulish;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -77,7 +77,7 @@
 .lable-style {
   color: #ffffff;
   text-align: center;
-  font-family: Mulish;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 11px;
   font-style: normal;
   font-weight: 700;
@@ -88,7 +88,7 @@
 
 .form-check-label, .card2_text {
   color: #252733;
-  font-family: Mulish;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 600;
@@ -97,12 +97,12 @@
 }
 
 .card2_num {
-  color: #9FA2B4;
+  color: #747a99;
   text-align: center;
-  font-family: Mulish;
-  font-size: 11px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 12px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   line-height: normal;
   letter-spacing: 0.5px;
   text-transform: uppercase;
